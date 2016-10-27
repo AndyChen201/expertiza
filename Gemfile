@@ -77,6 +77,7 @@ group :test do
   gem 'guard-rspec'
   gem 'launchy'
   gem 'rspec-rails'
+  gem 'selenium-webdriver'
   gem 'shoulda'
   gem 'test-unit'
 end

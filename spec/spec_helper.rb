@@ -3,8 +3,10 @@ require 'factory_girl_rails'
 require 'coveralls'
 Coveralls.wear! 'rails'
 require 'capybara'
+require 'capybara/rspec'
 require 'capybara/dsl'
 require 'selenium-webdriver'
+
 
 # Record code coverage with simplecov locally
 require 'simplecov'
